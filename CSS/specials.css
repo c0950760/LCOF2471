@@ -1,0 +1,8 @@
+main{
+    background-color: black;
+}
+
+nav li a:hover {
+    color: #000;
+    background-color: #b74b4b;
+}

@@ -1,0 +1,52 @@
+main{
+    background-color: black;
+}
+
+nav li a:hover {
+    color: #000;
+    background-color: #b74b4b;
+}
+
+.our-team {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-member {
+    /* width: 30%; */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+figcaption {
+    font-weight: bold;
+}
+
+/* Our Story Section */
+.our-story {
+    margin-top: 40px;
+}
+
+aside {
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+aside h3 {
+    margin-top: 0;
+}

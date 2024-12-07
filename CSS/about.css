@@ -1,0 +1,34 @@
+/* Default styles for desktop */
+.about_introduction, .mission, .what_we_do, .missio, .innovation, .values, .our_story, .our_journey {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+main{
+    background-color: black;
+}
+
+/* Tablet viewport */
+@media (max-width: 768px) {
+    .about_introduction, .mission, .what_we_do, .missio, .innovation, .values, .our_story, .our_journey {
+        padding: 15px;
+    }
+}
+
+/* Mobile viewport */
+@media (max-width: 480px) {
+    .about_introduction, .mission, .what_we_do, .missio, .innovation, .values, .our_story, .our_journey {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: larger;
+    }
+}
+
+
+nav li a:hover {
+    color: #000;
+    background-color: #b74b4b;
+}

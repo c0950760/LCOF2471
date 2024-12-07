@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>About-Us | ThermoNest Solutions</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <!--link rel="icon" type="image/x-icon" href="Images/design_try.png"-->
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"-->
+
+
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="Images/contactpage_thermonest.jpg" alt="ThermoNest_banner"></a>
+    </header>
+    <nav>
+        <ul> 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="specials.html">Specials</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h2 style="color: #b74b4b";>Contact Us</h2>
+            <p style="color:white";></p>
+            <p style="color:white";>We're here to help! If you have any questions, feedback, or inquiries, feel free to get in touch using the form or the contact information provided below.</p>
+            <br>
+            <h2 class="underline" style="color: #b74b4b";>How to Reach Us (For any Feedback / Complaint):</h2>
+            <h4 style="color: #b74b4b";>Fill Out the Below Contact Form:</h4>
+            <ol>
+                <li style="color:white";>If you prefer to reach out to us directly through the website, simply fill out the contact form.</li>
+                <li style="color:white";>Please provide your full name, a valid email address, and your message so we can assist you as effectively as possible.</li>
+                <li style="color:white";>Once completed, click the "Submit Request" button, and we’ll get back to you shortly.</li>
+            </ol>
+            <h4 style="color: #b74b4b";>Email Us Directly:</h4>
+            <ol>
+                <li style="color:white";>For quicker inquiries or specific requests, feel free to email us at "customersupport@thermonest.net"</li>
+                <li style="color:white";>Please provide your full name, a valid email address, and your message so we can assist you as effectively as possible.</li>
+            </ol>
+        </div>
+        <br><br><br>
+        <div>
+            <form action="contact.html" method="get">
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob">
+
+                    <label id="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                    <br>
+                    <label for="services">Issue Type:</label>
+                    <select id="services" name="services">
+                        <option value="Feedback">Feedback</option>
+                        <option value="Complaint">Complaint</option>
+                    </select>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your feedback/complaint here..." rows="5" required></textarea>
+
+                    <label>Rate your Experience:</label>
+                    <input type="checkbox" id="good" name="services" value="good">
+                    <label for="good">GOOD</label>
+                    <input type="checkbox" id="better" name="services" value="better">
+                    <label for="better">BETTER</label>
+                    <input type="checkbox" id="best" name="services" value="best">
+                    <label for="best">BEST</label>
+
+                    <div class="form-buttons">
+                        <button type="submit">Submit Request</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>&copy; 2024 ThermoNest Solutions Inc. All Rights Reserved.</p>
+                <p>Prepared By: Murtuza Hussain, Mohammed (c0950760)</p>
+            </div>
+            <div class="footer-contact">
+                <p>Contact Us:</p>
+                <p><a href="Customerservice@thermonest.net"><i class="fas fa-envelope"></i> Customerservice@thermonest.net</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+    

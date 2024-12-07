@@ -1,0 +1,67 @@
+main{
+    background-color: black;
+}
+
+nav li a:hover {
+    color: #000;
+    background-color: #b74b4b;
+}
+
+/* Table styles */
+
+table{
+    background-color: #fff;
+    padding: 1.6px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px #b74b4b;
+}
+
+.training-schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+.training-schedule caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.training-schedule th,
+.training-schedule td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.training-schedule th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Alternate row colors */
+.training-schedule tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Highlight row on hover */
+.training-schedule tbody tr:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.table-container {
+    overflow-x: auto; /* Allows horizontal scrolling */
+    margin: 0 auto; /* Center the container */
+}
+
+.training-schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
