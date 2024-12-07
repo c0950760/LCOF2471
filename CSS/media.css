@@ -13,3 +13,13 @@ video{
     border-radius: 8px;
     box-shadow: 5px 5px 15px #b74b4b;
 }
+
+.audfile{
+    display: flex;
+    align-items: center;
+}
+
+.vidfile{
+    display: flex;
+    justify-content: center;
+}
